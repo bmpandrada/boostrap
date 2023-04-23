@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <title>Forms Exercise</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center display-2">Part 1</h1>
+        <!-- Write your first form here -->
+        <form>
+        <div class="form-group">
+            <p class="h4 text-capitalize">biling address</p>
+            <label for="fname" class="form-label-group text-capitalize">full name</label>
+            <input type="fname" id="fname" name="fname" class="form-control" placeholder="Full Name">
+        </div>
+        
+        <div class="form-group">
+            <label for="username" class="form-label-group text-capitalize">user name</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+            </div>
+            <input type="username" id="username" name="username" class="form-control" placeholder="Full Name">    
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Address" class="form-label-group text-capitalize">address</label>
+            <input type="Address" id="Address" name="address" class="form-control" placeholder="Address">
+        </div>
+
+        <div class="form-group">
+            <label for="Address2" class="form-label-group text-capitalize">address 2 <span class="text-muted">(optional)</span></label>
+            <input type="Address2" id="Address2" name="Address2" class="form-control" placeholder="Appartment or Suite">
+        </div>
+
+        <div class="form-group">
+            <label for="textnote" class="form-label-group">Special Notes <span class="text-muted">(Optional)</span></label>
+            <textarea name="" id="textnote" cols="0" rows="4" class="form-control"></textarea>
+            <p class="text-muted">include any special request you have for us!</p>
+        </div>
+
+        <div class="custom-control custom-checkbox">
+            <input id="customCheck4" type="checkbox" class="custom-control-input">
+            <label for="customCheck4" class="custom-control-label">Shipping address is same as billing</label>
+        </div>  
+        <div class="custom-control custom-checkbox"> 
+            <input id="customCheck3" type="checkbox" class="custom-control-input">
+            <label for="customCheck3" class="custom-control-label">Save my info for next time</label>
+        </div>  
+        <hr class="mb-3">
+        <p class="h5 text-capitalize">shipping options</p>
+        <div class="custom-control custom-radio">
+            <input name="shippMethod" id="customCheck2" type="radio" class="custom-control-input">
+            <label for="customCheck2" class="custom-control-label text-capitalize">same day shipping</label>
+        </div>  
+        <div class="custom-control custom-radio"> 
+            <input name="shippMethod" id="customCheck1" type="radio" class="custom-control-input">
+            <label for="customCheck1" class="custom-control-label text-capitalize">next day shipping</label>
+        </div> 
+        <div class="custom-control custom-radio mb-3"> 
+            <input name="shippMethod" id="customCheck0" type="radio" class="custom-control-input">
+            <label for="customCheck0" class="custom-control-label text-capitalize">3-5 business days</label>
+        </div>
+        <button type="submit" class="btn btn-block btn-lg text-capitalize bg-primary text-light">continue to checkout</button>
+        </form>
+    </div>
+
+
+    <h1 class="text-center display-2">Part 2</h1>
+    <div class="container border rounded p-5" style="max-width: 400px;" >
+        <h1 class="h1 text-center text-capitalize mt-5 mb-3">sign in</h1>
+       <form class="pb-5 ">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Email">
+        </div>
+         <div class="form-group">
+            <input type="password" class="form-control" placeholder="Password">
+        </div>
+
+        <div class="custom-control custom-checkbox">
+              <input id="remember" type="checkbox" class="custom-control-input">
+              <label for="remember" class="custom-control-label">Remember me</label>
+        </div>
+        <button class="btn btn-block btn-lg bg-info my-2 text-capitalize text-light"> sign in</button>
+        <p class="text-center text-capitalize ">not a member? <span class="text-info">Register</span></p>
+    </form>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
